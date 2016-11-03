@@ -1,0 +1,294 @@
+@media only screen and (max-width: 1199px){
+  .container{
+    width: 100%;
+  }
+
+   //HEADER
+   .jumbotron{
+     .container{
+       h1{
+         font-size: 4em;
+       }
+       .top-text{
+         padding-top: 130px;
+       }
+       .btn{
+         margin-bottom: 150px;
+       }
+     }
+   }
+
+   //ABOUT ME
+   .about-me{
+     .container{
+       .about-desc{
+         h1{
+           padding-top: 40px;
+         }
+       }
+     }
+   }
+   //SERVICES
+  .services{
+    .container{
+      padding-left: 0;
+      padding-right: 0;
+      .services-desc{
+        padding-left: 70px;
+        h1{
+          padding: 40px 0 10px 0px;
+        }
+        p+p{
+          padding: 10px 0 60px 0px;
+        }
+      }
+    }
+  }
+
+  //WORK
+  .my-work{
+    .container{
+      padding: 0;
+      .work-header{
+        h1{
+          padding: 40px 0 30px 0;
+        }
+      }
+      .list-inline{
+        ul{
+          li{
+            padding-left: 0 !important;
+          }
+        }
+      }
+    }
+  }
+
+  //CONTACT
+  .contact{
+    .contact-desc{
+      h1{
+        padding: 40px 0 30px 0;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 991px){
+  //SERVICES
+  .services{
+    .services-desc{
+      h1{
+        text-align: center;
+      }
+      p{
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+      }
+      .desc{
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+      }
+      .serv-boxes{
+        h3{
+          text-align: center;
+          padding-left: 0;
+          padding-right: 0;
+        }
+        p{
+          text-align: center;
+          padding-left: 0;
+          padding-right: 0;
+        }
+        img{
+          display: block;
+          margin: 0 auto;
+        }
+      }
+      .bottom-boxes{
+        p{
+          padding-bottom: 40px;
+        }
+      }
+      .left-boxes{
+        h3{
+          padding-left: 100px;
+        }
+        p{
+          padding-left: 100px;
+        }
+        img{
+          padding-left: 100px;
+        }
+      }
+      .right-boxes{
+        h3{
+          padding-right: 100px;
+        }
+        p{
+          padding-right: 100px;
+        }
+        img{
+          padding-right: 100px;
+        }
+      }
+    }
+    .img{
+      height: 400px;
+    }
+  }
+  .my-work{
+    .container{
+      .list-inline{
+        li{
+          padding: 0px;
+          img{
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px){
+
+//ABOUT ME
+.about-me{
+  .container{
+    .boxes{
+      border: none;
+      margin: 0 auto;
+    }
+  }
+}
+
+//services
+  .services{
+    .container{
+      .services-desc{
+        padding-left: 0px;
+      }
+      .bottom-boxes{
+        p{
+          padding-bottom: 40px;
+        }
+      }
+      .left-boxes{
+        h3{
+          padding-left: 0;
+        }
+        p{
+          padding-left: 0;
+        }
+        img{
+          padding-left: 0;
+        }
+      }
+      .right-boxes{
+        h3{
+          padding-right: 0;
+        }
+        p{
+          padding-right: 0;
+        }
+        img{
+          padding-right: 0;
+        }
+      }
+      .globe, .glass{
+        padding-top: 40px;
+      }
+      .graph{
+        img{
+          padding-top: 0;
+        }
+      }
+    }
+  }
+  //CONTACT FORM
+  .contact-form{
+    form{
+      .form-group{
+        width: 90%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 555px){
+  .jumbotron{
+    .container{
+      .top-text{
+        font-size: 1.5em;
+      }
+      h1{
+        letter-spacing: 15px;
+        font-size: 3.5em;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 490px){
+  .jumbotron{
+    .container{
+      .top-text{
+        font-size: 1.5em;
+      }
+      h1{
+        letter-spacing: 5px;
+        font-size: 3.5em;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 430px){
+  .services{
+    .container{
+      .services-desc{
+        h1{
+          padding-left: 20px;
+        }
+        p{
+          padding-left: 25px !important;
+          padding-right: 20px !important;
+        }
+      }
+    }
+    .col-md-6{
+      padding-right: 0 !important;
+    }
+  }
+  .my-work{
+    .container{
+      .work-header{
+        h1{
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+        p{
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 388px){
+  .jumbotron{
+    .container{
+      h1{
+        font-size: 3em;
+        letter-spacing: 3px;
+      }
+      .top-text{
+        padding-top: 80px;
+      }
+    }
+  }
+}

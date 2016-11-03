@@ -1,0 +1,193 @@
+@media only screen and (max-width: 1199px) {
+  .container {
+    width: 100%;
+  }
+  .jumbotron .container h1 {
+    font-size: 4em;
+  }
+  .jumbotron .container .top-text {
+    padding-top: 130px;
+  }
+  .jumbotron .container .btn {
+    margin-bottom: 150px;
+  }
+  .about-me .container .about-desc h1 {
+    padding-top: 40px;
+  }
+  .services .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .services .container .services-desc {
+    padding-left: 70px;
+  }
+  .services .container .services-desc h1 {
+    padding: 40px 0 10px 0px;
+  }
+  .services .container .services-desc p + p {
+    padding: 10px 0 60px 0px;
+  }
+  .my-work .container {
+    padding: 0;
+  }
+  .my-work .container .work-header h1 {
+    padding: 40px 0 30px 0;
+  }
+  .my-work .container .list-inline ul li {
+    padding-left: 0 !important;
+  }
+  .contact .contact-desc h1 {
+    padding: 40px 0 30px 0;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .services .services-desc h1 {
+    text-align: center;
+  }
+  .services .services-desc p {
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .services .services-desc .desc {
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .services .services-desc .serv-boxes h3 {
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .services .services-desc .serv-boxes p {
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .services .services-desc .serv-boxes img {
+    display: block;
+    margin: 0 auto;
+  }
+  .services .services-desc .bottom-boxes p {
+    padding-bottom: 40px;
+  }
+  .services .services-desc .left-boxes h3 {
+    padding-left: 100px;
+  }
+  .services .services-desc .left-boxes p {
+    padding-left: 100px;
+  }
+  .services .services-desc .left-boxes img {
+    padding-left: 100px;
+  }
+  .services .services-desc .right-boxes h3 {
+    padding-right: 100px;
+  }
+  .services .services-desc .right-boxes p {
+    padding-right: 100px;
+  }
+  .services .services-desc .right-boxes img {
+    padding-right: 100px;
+  }
+  .services .img {
+    height: 400px;
+  }
+  .my-work .container .list-inline li {
+    padding: 0px;
+  }
+  .my-work .container .list-inline li img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .about-me .container .boxes {
+    border: none;
+    margin: 0 auto;
+  }
+  .services .container .services-desc {
+    padding-left: 0px;
+  }
+  .services .container .bottom-boxes p {
+    padding-bottom: 40px;
+  }
+  .services .container .left-boxes h3 {
+    padding-left: 0;
+  }
+  .services .container .left-boxes p {
+    padding-left: 0;
+  }
+  .services .container .left-boxes img {
+    padding-left: 0;
+  }
+  .services .container .right-boxes h3 {
+    padding-right: 0;
+  }
+  .services .container .right-boxes p {
+    padding-right: 0;
+  }
+  .services .container .right-boxes img {
+    padding-right: 0;
+  }
+  .services .container .globe, .services .container .glass {
+    padding-top: 40px;
+  }
+  .services .container .graph img {
+    padding-top: 0;
+  }
+  .contact-form form .form-group {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 555px) {
+  .jumbotron .container .top-text {
+    font-size: 1.5em;
+  }
+  .jumbotron .container h1 {
+    letter-spacing: 15px;
+    font-size: 3.5em;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .jumbotron .container .top-text {
+    font-size: 1.5em;
+  }
+  .jumbotron .container h1 {
+    letter-spacing: 5px;
+    font-size: 3.5em;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .services .container .services-desc h1 {
+    padding-left: 20px;
+  }
+  .services .container .services-desc p {
+    padding-left: 25px !important;
+    padding-right: 20px !important;
+  }
+  .services .col-md-6 {
+    padding-right: 0 !important;
+  }
+  .my-work .container .work-header h1 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .my-work .container .work-header p {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 388px) {
+  .jumbotron .container h1 {
+    font-size: 3em;
+    letter-spacing: 3px;
+  }
+  .jumbotron .container .top-text {
+    padding-top: 80px;
+  }
+}
