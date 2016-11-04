@@ -99,6 +99,9 @@
   .my-work .container .list-inline li img {
     width: 100%;
   }
+  .my-work .container .hover-box p, .my-work .container .hover-box2 p, .my-work .container .hover-box3 p, .my-work .container .hover-box4 p, .my-work .container .hover-box5 p, .my-work .container .hover-box6 p, .my-work .container .hover-box7 p, .my-work .container .hover-box8 p {
+    padding: 10px 40px 0 40px;
+  }
 }
 
 @media only screen and (max-width: 768px) {

@@ -73,6 +73,14 @@
   overflow: hidden;
 }
 
+.jumbotron .container .btn:hover {
+  background-color: #b3ad19;
+}
+
+.jumbotron .container .btn:visited {
+  color: black;
+}
+
 .about-me .container .about-desc {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
@@ -257,6 +265,26 @@
   text-decoration: none;
   float: left;
   padding: 0;
+  display: block;
+  position: relative;
+}
+
+.my-work .hover-box, .my-work .hover-box2, .my-work .hover-box3, .my-work .hover-box4, .my-work .hover-box5, .my-work .hover-box6, .my-work .hover-box7, .my-work .hover-box8 {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(75, 202, 255, 0.7);
+  position: absolute;
+  text-align: center;
+  display: none;
+}
+
+.my-work .hover-box h4, .my-work .hover-box2 h4, .my-work .hover-box3 h4, .my-work .hover-box4 h4, .my-work .hover-box5 h4, .my-work .hover-box6 h4, .my-work .hover-box7 h4, .my-work .hover-box8 h4 {
+  padding-top: 25%;
+  color: white;
+}
+
+.my-work .hover-box p, .my-work .hover-box2 p, .my-work .hover-box3 p, .my-work .hover-box4 p, .my-work .hover-box5 p, .my-work .hover-box6 p, .my-work .hover-box7 p, .my-work .hover-box8 p {
+  color: white;
 }
 
 .contact .contact-desc {
