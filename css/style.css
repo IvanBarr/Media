@@ -229,6 +229,11 @@
 
 .my-work ul {
   margin: 0 auto;
+  list-style: none;
+}
+
+.my-work ul li {
+  list-style: none;
 }
 
 .my-work .work-header {
@@ -267,6 +272,7 @@
   padding: 0;
   display: block;
   position: relative;
+  list-style: none;
 }
 
 .my-work .hover-box, .my-work .hover-box2, .my-work .hover-box3, .my-work .hover-box4, .my-work .hover-box5, .my-work .hover-box6, .my-work .hover-box7, .my-work .hover-box8 {

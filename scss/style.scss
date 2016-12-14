@@ -209,6 +209,10 @@
 .my-work{
   ul{
     margin: 0 auto;
+    list-style: none;
+    li{
+      list-style: none;
+    }
   }
   .work-header{
     text-align: center;
@@ -250,6 +254,7 @@
         padding: 0;
         display: block;
         position: relative;
+        list-style: none;
       }
     }
   }
