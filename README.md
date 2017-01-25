@@ -1,2 +1,2 @@
-# VitaliMedia
-Portfolio for VitaliMedia
+#Media
+Portfolio Template
